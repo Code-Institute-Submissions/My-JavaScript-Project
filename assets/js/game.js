@@ -72,7 +72,7 @@ choices.forEach(choice => {
 
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
 
-        console.log(classToApply);
+        
         getNewQuestion();
     });
 });

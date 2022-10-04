@@ -58,7 +58,6 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number];
     });
     availableQuestions.splice(questionIndex, 1);
-
     acceptingAnswers = true;
 };
 
@@ -70,7 +69,13 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        console.log(selectedAnswer === currentQuestion.answer);
+
+        const classToApply = 'incorrect';
+        if(selectedAnswer == currentQuestion.answer){
+            classToApply = 'correct';
+        }
+
+        console.log(selectedAnswer == currentQuestion.answer);
         getNewQuestion();
     });
 });

@@ -61,7 +61,7 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
-//Choices
+//Correct and incorrect answers
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;

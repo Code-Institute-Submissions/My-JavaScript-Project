@@ -40,7 +40,6 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [ ... questions];
-    console.log(availableQuestions);
     getNewQuestion();
 };
 
@@ -71,7 +70,7 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        console.log(selectedAnswer);
+        console.log(selectedAnswer === currentQuestion.answer);
         getNewQuestion();
     });
 });

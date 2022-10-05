@@ -6,9 +6,11 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+
 //Constants
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
+
 //Temporary questions
 let questions = [
     {
@@ -25,6 +27,7 @@ let questions = [
         choice2: "<script name='xxx.js'",
         choice3: "<script src='xxx.js'",
         choice4: "<script file='xxx.js'",
+        answer: 3
     },
     {
         question: "How do you write 'Hello World' in an alert box?",
@@ -35,6 +38,7 @@ let questions = [
         answer: 4
     }
 ];
+
 //Start Game function
 startGame = () => {
     questionCounter = 0;

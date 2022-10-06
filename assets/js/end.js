@@ -16,3 +16,7 @@ username.addEventListener('keyup', () => {
 saveHighScore = (e) => {
     e.preventDefault();
 };
+
+//local storage
+localStorage.setItem('highScores', JSON.stringify([]));
+console.log(JSON.parse(localStorage.getItem('highScores')));

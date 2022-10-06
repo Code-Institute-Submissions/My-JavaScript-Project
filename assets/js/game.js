@@ -1,9 +1,9 @@
+//Variables
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
 //Constants
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
@@ -12,7 +12,6 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById('progressBarFull');
-
 //Temporary questions
 let questions = [
     {
@@ -40,7 +39,6 @@ let questions = [
         answer: 4
     }
 ];
-
 //Start Game function
 startGame = () => {
     questionCounter = 0;
@@ -48,7 +46,6 @@ startGame = () => {
     availableQuestions = [ ... questions];
     getNewQuestion();
 };
-
 //New Question function
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
@@ -69,7 +66,6 @@ getNewQuestion = () => {
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
-
 //Correct and incorrect answers
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -92,7 +88,6 @@ choices.forEach(choice => {
         }, 1000);
     });
 });
-
 incrementScore = num => {
     score +=num;
     scoreText.innerText = score;

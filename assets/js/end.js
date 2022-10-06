@@ -18,5 +18,5 @@ saveHighScore = (e) => {
 };
 
 //local storage
-localStorage.setItem('highScores', JSON.stringify([]));
-console.log(JSON.parse(localStorage.getItem('highScores')));
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+console.log(highScores);

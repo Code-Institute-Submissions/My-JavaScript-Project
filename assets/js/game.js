@@ -15,10 +15,15 @@ const progressBarFull = document.getElementById('progressBarFull');
 //Temporary questions
 let questions = [];
 
-fetch("questions.json").then(res => {
+fetch("assets/json/questions.json").then(res => {
     return res.json();
 }).then(loadedQuestions => {
     console.log(loadedQuestions);
+    questions = loadedQuestions;
+    startGame();
+})
+.catch( err => {
+    console.error(err);
 });
 //Start Game function
 startGame = () => {
@@ -74,4 +79,3 @@ incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
 }
-startGame();

@@ -17,6 +17,8 @@ let questions = [];
 
 fetch("questions.json").then(res => {
     return res.json();
+}).then(loadedQuestions => {
+    console.log(loadedQuestions);
 });
 //Start Game function
 startGame = () => {

@@ -14,10 +14,8 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
-
 //Loaded questions from open DB
 let questions = [];
-
 fetch(
     'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple'
 )
@@ -83,17 +81,13 @@ getNewQuestion = () => {
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
-
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
-
         if(classToApply === 'correct'){
             incrementScore(CORRECT_BONUS);
         }
-
         selectedChoice.parentElement.classList.add(classToApply);
         setTimeout ( () => {
             selectedChoice.parentElement.classList.remove(classToApply);

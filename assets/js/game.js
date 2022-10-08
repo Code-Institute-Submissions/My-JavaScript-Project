@@ -14,6 +14,10 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById('progressBarFull');
 //Temporary questions
 let questions = [];
+
+fetch("questions.json").then(res => {
+    return res.json();
+});
 //Start Game function
 startGame = () => {
     questionCounter = 0;

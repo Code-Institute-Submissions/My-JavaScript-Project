@@ -159,8 +159,8 @@ input::placeholder{
 .modal {
     display: none;
     position: absolute;
-    padding-top: 440px; 
-    width: 100%;
+    padding-top: 300px; 
+    width: 120%;
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
@@ -169,7 +169,6 @@ input::placeholder{
     background-color: #004643;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
     width: 20%;
     font-size: 1.4rem;
 }
@@ -186,3 +185,20 @@ input::placeholder{
     text-decoration: none;
     cursor: pointer;
 }
+/*highscores-css*/
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+  
+  .high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: #abd1c6;
+  }
+  
+  .high-score:hover {
+    transform: scale(1.25);
+    color: #fffffe;
+  }

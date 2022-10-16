@@ -17,7 +17,7 @@ const game = document.getElementById('game');
 //Loaded questions from open DB
 let questions = [];
 fetch(
-    'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple'
+    'https://opentdb.com/api.php?amount=50&category=23&difficulty=easy&type=multiple'
 )
     .then((res) => {
         return res.json();

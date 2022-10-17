@@ -163,7 +163,7 @@ input::placeholder{
 .modal {
     display: none;
     position: absolute;
-    padding-top: 300px; 
+    padding-top: 445px; 
     width: 120%;
     height: 100%;
     overflow: auto;

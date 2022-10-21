@@ -143,11 +143,11 @@ input::placeholder{
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #001e1d;
+    border: none;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #001e1d;
-    background-color: #f9bc60;
+    color: #fff;
+    background-color: transparent;
 }
 #myBtn:hover{
     cursor: pointer;

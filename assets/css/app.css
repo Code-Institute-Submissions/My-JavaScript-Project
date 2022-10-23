@@ -210,10 +210,10 @@ input::placeholder{
   /*responsive*/
 @media (min-width: 320px){
     .modal{
-        padding-top: 280px;
+        padding-top: 275px;
     }
     .modal-content{
-        width: 65%;
+        width: 75%;
     }
     h1{
         font-size: 34px;

@@ -208,7 +208,7 @@ input::placeholder{
   }
 
   /*responsive*/
-@media (min-width: 350px){
+@media (min-width: 320px){
     .modal{
         padding-top: 325px;
     }

@@ -158,13 +158,13 @@ The user also have a choice to play the quiz again or go back to the home page.
 
 ## Technology
 ### Languages Used
-- [HTML5]()
-- [CSS3]()
-- [JavaScript ES6]()
-- [Markdown - language used to write this document.]()
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript ES6](https://en.wikipedia.org/wiki/JavaScript)
+- [Markdown - language used to write this document.](https://en.wikipedia.org/wiki/Markdown)
 
 ### Frameworks, libraries & software used
-- [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create [wireframes]() during the design process.
+- [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create wireframes during the design process.
 - [Coolers.co](https://coolors.co/) - Was used to find a colour palette.
 - [Google Fonts](https://fonts.google.com/) - Google Fonts were used to import the 'Roboto' font into the app.css file which is used on all pages throughout the project.
 - [Font Awsome](https://fontawesome.com/) - Font Awsome was used on all pages throughout to add icons for the footer.
@@ -226,7 +226,7 @@ In the W3C CSS validator check for game.css no faults are detected.
 ![Game.css](assets7docs/GameCssChecker.png)
 
 #### JavaScript ES6
-[JS Hint]()
+[JS Hint](https://jshint.com/)
 - No warning or errors reported using the VSCode extension.
 - No warning or errors reported using JSHint website when using the following parameters (entered at the top of the code section):
 ```// Use ECMAScript 8 
@@ -374,9 +374,9 @@ image
 ```
 ## Credits
 ### Learning resources
-- [Code Institute]() - The JavaScript section and walthrough project helped me alot in getting the knowledge needed.
-- [W3C School]() - When Code Institute could not give me the answer.
-- [JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett] - When I needed to repeat or just see whatelse I could try when I was stuck.
+- [Code Institute](https://codeinstitute.net/se/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=581817633086&hsa_src=g&hsa_tgt=aud-594467886660:kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwzNOaBhAcEiwAD7Tb6N3WGiztlBSEN8Er4wdekcvAJ_KwB8GUz1PJfQssgnTLnMNScuTcghoC8-UQAvD_BwE) - The JavaScript section and walthrough project helped me alot in getting the knowledge needed.
+- [W3C School](https://www.w3schools.com/) - When Code Institute could not give me the answer.
+- [JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett](https://www.adlibris.com/se/bok/javascript-jquery---interactive-front-end-web-development-9781118871652) - When I needed to repeat or just see whatelse I could try when I was stuck.
 
 ### Acknowledgements
 - My mentor Maranatha Ilesanmi for helpful feedback and guidance at all stages of the project.

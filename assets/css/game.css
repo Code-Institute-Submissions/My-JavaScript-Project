@@ -72,3 +72,8 @@
         transform: rotate(360deg);
     }
 }
+@media (min-width: 320px){
+    h2{
+        font-size: 34px;
+    }
+}

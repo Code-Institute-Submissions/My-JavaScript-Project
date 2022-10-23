@@ -206,3 +206,80 @@ input::placeholder{
     transform: scale(1.25);
     color: #fffffe;
   }
+
+  /*responsive*/
+@media (min-width: 350px){
+    .modal{
+        padding-top: 325px;
+    }
+    .modal-content{
+        width: 60%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .high-score{
+        font-size: 2.4rem;
+    }
+}
+@media (min-width: 568px){
+    .modal{
+        padding-top: 325px;
+        margin: 0;
+        padding: 0;
+    }
+    .modal-content{
+        width: 40%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .high-score{
+        font-size: 2.4rem;
+    }
+}
+@media (min-width: 768px){
+    .modal{
+        padding-top: 325px;
+        margin: 0;
+        padding: 0;
+    }
+    .modal-content{
+        width: 30%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .high-score{
+        font-size: 2.4rem;
+    }
+}
+@media (min-width: 1024px){
+    .modal{
+        padding-top: 325px;
+        width: 130%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .high-score{
+        font-size: 2.4rem;
+    }
+}
+@media (min-width: 1920px){
+    .modal{
+        width: 100%;
+    }
+    .modal-content{
+        width: 20%;
+    }
+}
+@media (min-width: 2560px){
+    .modal{
+        width: 100%;
+        padding-top: 480px;
+    }
+    .modal-content{
+        width: 20%;
+    }
+}

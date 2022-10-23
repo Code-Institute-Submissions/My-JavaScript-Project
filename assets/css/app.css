@@ -1,9 +1,9 @@
 /*Universal Styling*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     background-color: #004643;
     font-size: 62.5%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;

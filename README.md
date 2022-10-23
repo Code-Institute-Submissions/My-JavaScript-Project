@@ -177,6 +177,7 @@ The user also have a choice to play the quiz again or go back to the home page.
 - [Lighthouse](https://web.dev/measure/?gclid=CjwKCAjwzNOaBhAcEiwAD7Tb6HRAAz5BpsJHUTZjbUjVem1pf9IRxhdD_eaBsI6zUzFgKYOPNUNYnhoCbuoQAvD_BwE) - Google WebDev tool used for performance/accesibility testing.
 - [Icons8](https://icons8.com/icons/set/History) - Tool used to create favicon / Logo.
 - [Opentdb.com](https://opentdb.com/) - Where i got my API DB for my questions.
+
 The following Visual Studio Code extensions were utilized in the production of this project:
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Used for code formatting.
 - [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) - Used to wrap comments and site text.
@@ -190,7 +191,9 @@ The following Visual Studio Code extensions were utilized in the production of t
 
 ### Performance
 [Lighthouse](https://app.prntscr.com/en/index.html) - Google webdev tool used for performance testing showing near-maximum score.
+- Desktop
 ![Desktop](assets/docs/DesktopScore.png)
+- Mobile
 ![Mobile](assets/docs/MobileScore.png)
 
 
